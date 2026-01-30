@@ -6,16 +6,15 @@
 /*   By: vaktas<vaktas@student.42istanbul.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/20 17:47:19 by vaktas            #+#    #+#             */
-/*   Updated: 2026/01/24 19:59:59 by vaktas           ###   ########.tr       */
+/*   Updated: 2026/01/30 14:27:51 by vaktas           ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
-# include <stdint.h>
+
 # include <stdlib.h>
 # include <unistd.h>
-# include <fcntl.h>
 
 typedef struct s_list
 {

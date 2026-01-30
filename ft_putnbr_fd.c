@@ -6,7 +6,7 @@
 /*   By: vaktas<vaktas@student.42istanbul.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/21 17:28:25 by vaktas            #+#    #+#             */
-/*   Updated: 2026/01/24 18:10:06 by vaktas           ###   ########.tr       */
+/*   Updated: 2026/01/30 14:25:44 by vaktas           ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,59 +30,4 @@ void	ft_putnbr_fd(int n, int fd)
 	}
 	else
 		ft_putchar_fd(n + '0', fd);
-}
-
-/*
-ft_putnbr_fd:
-n = 123
-fd = 1
-
-int *a = malloc(10);<l
-ft_putnbr_fd:
-n = 12
-fd = 1
-
-ft_putnbr_fd:
-n = 1
-fd = 1
-
-
-
-ft_putnbr_fd:
-n = 1
-fd = 1
-
-
-ft_putnbr_fd:
-n = 2
-fd = 1
-
-
-ft_putnbr_fd:
-n = 3
-fd = 1
-
-
-123
-*/
-
-
-
-
-int	main(void)
-{
-	int fd;
-
-	fd = open("test.txt", O_CREAT | O_RDWR, 0644);
-
-	ft_putnbr_fd(123, fd);
-	// ft_putchar_fd('\n', fd);
-	// ft_putnbr_fd(123456, fd);
-	// ft_putchar_fd('\n', fd);
-	// ft_putnbr_fd(-98765, fd);
-	// ft_putchar_fd('\n', fd);
-	// ft_putnbr_fd(0, fd);
-	// ft_putchar_fd('\n', fd);
-
-	close(fd);
 }

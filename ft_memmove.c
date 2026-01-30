@@ -6,7 +6,7 @@
 /*   By: vaktas<vaktas@student.42istanbul.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/07 15:51:04 by vaktas            #+#    #+#             */
-/*   Updated: 2026/01/17 15:01:42 by vaktas           ###   ########.tr       */
+/*   Updated: 2026/01/30 14:25:30 by vaktas           ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,15 +36,3 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	char	dest[] = "Hello World";
-// 	char	src[] = "World Hello";
-
-// 	ft_memmove(dest, src, 4);
-// 	printf("%s\n", dest);
-// 	return (0);
-// }

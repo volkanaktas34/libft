@@ -6,7 +6,7 @@
 /*   By: vaktas<vaktas@student.42istanbul.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/13 12:49:07 by vaktas            #+#    #+#             */
-/*   Updated: 2026/01/24 15:00:58 by vaktas           ###   ########.tr       */
+/*   Updated: 2026/01/30 14:24:11 by vaktas           ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,13 +36,3 @@ int	ft_atoi(const char *nptr)
 	}
 	return (result * sign);
 }
-
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	const char *str = "   -12345abc";
-// 	int num = ft_atoi(str);
-// 	printf("The converted integer is: %d\n", num);
-// 	return (0);
-// }

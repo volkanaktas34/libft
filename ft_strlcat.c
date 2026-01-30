@@ -6,7 +6,7 @@
 /*   By: vaktas<vaktas@student.42istanbul.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/07 17:13:38 by vaktas            #+#    #+#             */
-/*   Updated: 2026/01/22 19:19:26 by vaktas           ###   ########.tr       */
+/*   Updated: 2026/01/30 14:26:14 by vaktas           ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,24 +14,24 @@
 
 size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {
-	size_t	dst_len;
-	size_t	src_len;
+	size_t	dstlen;
+	size_t	srclen;
 	size_t	i;
 
-	dst_len = 0;
-	while (dst[dst_len] && dst_len < size)
-		dst_len++;
-	src_len = 0;
-	while (src[src_len])
-		src_len++;
-	if (dst_len >= size)
-		return (size + src_len);
+	dstlen = 0;
+	while (dst[dstlen] && dstlen < size)
+		dstlen++;
+	srclen = 0;
+	while (src[srclen])
+		srclen++;
+	if (dstlen >= size)
+		return (size + srclen);
 	i = 0;
-	while (dst_len + 1 + i < size && src[i])
+	while (dstlen + 1 + i < size && src[i])
 	{
-		dst[dst_len + i] = src[i];
+		dst[dstlen + i] = src[i];
 		i++;
 	}
-	dst[dst_len + i] = '\0';
-	return (dst_len + src_len);
+	dst[dstlen + i] = '\0';
+	return (dstlen + srclen);
 }

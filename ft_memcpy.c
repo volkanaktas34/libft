@@ -6,7 +6,7 @@
 /*   By: vaktas<vaktas@student.42istanbul.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/07 15:41:13 by vaktas            #+#    #+#             */
-/*   Updated: 2026/01/24 12:33:29 by vaktas           ###   ########.tr       */
+/*   Updated: 2026/01/30 14:25:26 by vaktas           ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,18 +30,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	char dest[] = "Hello";
-// 	char src[] = "42 Istanbul";
-
-// 	int		dest = 7238942;
-// 	int		src = 2147483647;
-
-// 	ft_memcpy(&dest, &src, 4);
-// 	printf("%d\n", dest);
-// 	return (0);
-// }

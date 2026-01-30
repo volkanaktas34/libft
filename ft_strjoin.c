@@ -6,7 +6,7 @@
 /*   By: vaktas<vaktas@student.42istanbul.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 18:50:32 by vaktas            #+#    #+#             */
-/*   Updated: 2026/01/17 16:01:47 by vaktas           ###   ########.tr       */
+/*   Updated: 2026/01/30 14:26:10 by vaktas           ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,14 +30,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	join[s1len + s2len] = '\0';
 	return (join);
 }
-
-// int main()
-// {
-//     char *s1 = "Merhaba, ";
-//     char *s2 = "Dünya!";
-//     char *result = ft_strjoin(s1, s2);
-
-//     printf("%s", result);
-// }
-
-// asdas  asd   asdasd  asfASFdf

@@ -6,7 +6,7 @@
 /*   By: vaktas<vaktas@student.42istanbul.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/15 16:39:44 by vaktas            #+#    #+#             */
-/*   Updated: 2026/01/22 19:47:24 by vaktas           ###   ########.tr       */
+/*   Updated: 2026/01/30 14:25:52 by vaktas           ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,20 +74,3 @@ char	**ft_split(char const *s, char c)
 	result[i] = NULL;
 	return (result);
 }
-
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	char	**res;
-// 	int		i;
-
-// 	res = ft_split(NULL, '\0');
-// 	i = 0;
-// 	while (res[i])
-// 	{
-// 		printf("%s\n", res[i]);
-// 		i++;
-// 	}
-// 	return 0;
-// }

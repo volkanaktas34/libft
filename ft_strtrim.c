@@ -6,7 +6,7 @@
 /*   By: vaktas<vaktas@student.42istanbul.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 19:26:16 by vaktas            #+#    #+#             */
-/*   Updated: 2026/01/17 18:50:39 by vaktas           ###   ########.tr       */
+/*   Updated: 2026/01/29 13:08:02 by vaktas           ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,11 +33,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	trim[end - start] = '\0';
 	return (trim);
 }
-
-// int main() {
-//     char *s = "   \t\nHello World!\n\t   ";
-//     char *result = ft_strtrim(s, "\n");
-
-//     printf("'%s'\n", result);
-//     return (0);
-// }

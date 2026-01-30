@@ -6,7 +6,7 @@
 /*   By: vaktas<vaktas@student.42istanbul.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/09 14:34:14 by vaktas            #+#    #+#             */
-/*   Updated: 2026/01/16 12:12:50 by vaktas           ###   ########.tr       */
+/*   Updated: 2026/01/30 16:03:46 by vaktas           ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,18 +26,10 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 		while (big[i + j] == little[j] && (i + j) < len)
 		{
 			if (little[j + 1] == '\0')
-			{
 				return ((char *)&big[i]);
-			}
 			j++;
 		}
 		i++;
 	}
 	return (NULL);
 }
-
-// int	main(void)
-// {
-// 	printf("%s", ft_strnstr("asjldklMerhabaabcvvbzxc", "Merhab", 23));
-// 	return (0);
-// }

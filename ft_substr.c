@@ -6,7 +6,7 @@
 /*   By: vaktas<vaktas@student.42istanbul.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 17:44:54 by vaktas            #+#    #+#             */
-/*   Updated: 2026/01/21 19:49:24 by vaktas           ###   ########.tr       */
+/*   Updated: 2026/01/30 14:26:49 by vaktas           ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,12 +31,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	sub[len] = '\0';
 	return (sub);
 }
-
-// int main()
-// {
-//     char *sub = "Merhaba";
-//     char *result;
-
-//     result = ft_substr(sub, 1, 7);
-//     printf("%s", result);
-// }

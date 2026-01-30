@@ -6,7 +6,7 @@
 /*   By: vaktas<vaktas@student.42istanbul.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/07 16:21:16 by vaktas            #+#    #+#             */
-/*   Updated: 2026/01/22 19:20:03 by vaktas           ###   ########.tr       */
+/*   Updated: 2026/01/30 14:26:18 by vaktas           ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,33 +14,20 @@
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {
+	size_t srclen;
 	size_t	i;
 
+	srclen = 0;
+	while (src[srclen])
+		srclen++;
+	if (size == 0)
+		return (srclen);
 	i = 0;
-	if (size > 0)
+	while (src[i] && i < size - 1)
 	{
-		while (src[i] && i < size - 1)
-		{
-			dst[i] = src[i];
-			i++;
-		}
-		dst[i] = '\0';
-	}
-	while (src[i])
+		dst[i] = src[i];
 		i++;
-	return (i);
+	}
+	dst[i] = '\0';
+	return (srclen);
 }
-
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	char	dest[20];
-// 	char	src[] = "Hello, World!";
-// 	size_t	result;
-
-// 	result = ft_strlcpy(dest, src, sizeof(dest));
-// 	printf("Copied string: %s\n", dest);
-// 	printf("Length of source string: %zu\n", result);
-// 	return (0);
-// }

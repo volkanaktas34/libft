@@ -6,7 +6,7 @@
 /*   By: vaktas<vaktas@student.42istanbul.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 13:20:08 by vaktas            #+#    #+#             */
-/*   Updated: 2026/01/17 15:58:44 by vaktas           ###   ########.tr       */
+/*   Updated: 2026/01/30 14:25:58 by vaktas           ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,11 +24,3 @@ char	*ft_strdup(const char *s)
 	ft_memcpy(p, s, len + 1);
 	return (p);
 }
-
-// int main()
-// {
-//     char *str = "Merhaba";
-
-//     char *result = ft_strdup(str);
-//     printf("%s", result);
-// }
