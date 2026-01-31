@@ -1,4 +1,4 @@
-𝘛𝘩𝘪𝘴 𝘱𝘳𝘰𝘫𝘦𝘤𝘵 𝘩𝘢𝘴 𝘣𝘦𝘦𝘯 𝘤𝘳𝘦𝘢𝘵𝘦𝘥 𝘢𝘴 𝘱𝘢𝘳𝘵 𝘰𝘧 𝘵𝘩𝘦 𝟦𝟤 𝘤𝘶𝘳𝘳𝘪𝘤𝘶𝘭𝘶𝘮 𝘣𝘺 <𝘷𝘢𝘬𝘵𝘢𝘴>
+*This project has been created as part of the 42 curriculum by vaktas.*
 
 Libft - @42Istanbul
 
@@ -74,7 +74,7 @@ Artificial Intelligence (specifically Gemini) was utilized in this project for t
 
     Unit Test Generation: AI provided edge-case scenarios (such as null pointers or empty strings) to help test the robustness of the ft_strtrim and ft_substr functions.
 
-𝘉𝘶 𝘱𝘳𝘰𝘫𝘦, 𝟦𝟤 𝘮𝘶̈𝘧𝘳𝘦𝘥𝘢𝘵ı𝘯ı𝘯 𝘣𝘪𝘳 𝘱𝘢𝘳𝘤̧𝘢𝘴ı 𝘰𝘭𝘢𝘳𝘢𝘬 <𝘷𝘢𝘬𝘵𝘢𝘴> 𝘵𝘢𝘳𝘢𝘧ı𝘯𝘥𝘢𝘯 𝘰𝘭𝘶𝘴̧𝘵𝘶𝘳𝘶𝘭𝘮𝘶𝘴̧𝘵𝘶𝘳.
+*Bu proje, 42 müfredatının bir parçası olarak vaktas tarafından oluşturulmuştur.*
 
 Libft - @42Istanbul
 
