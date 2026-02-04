@@ -1,36 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memmove.c                                       :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: vaktas<vaktas@student.42istanbul.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/01/07 15:51:04 by vaktas            #+#    #+#             */
-/*   Updated: 2026/01/31 12:31:51 by vaktas           ###   ########.tr       */
+/*   Created: 2026/02/04 13:02:04 by vaktas            #+#    #+#             */
+/*   Updated: 2026/02/04 17:02:02 by vaktas           ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdio.h>
 
-void	*ft_memmove(void *dest, const void *src, size_t n)
+int main()
 {
-	unsigned char	*d;
-	unsigned char	*s;
-
-	d = (unsigned char *)dest;
-	s = (unsigned char *)src;
-	if (!dest && !src)
-		return (NULL);
-	if (d < s)
-		while (n--)
-			*d++ = *s++;
-	else if (d > s)
-	{
-		while (n > 0)
-		{
-			d[n - 1] = s[n - 1];
-			n--;
-		}
-	}
-	return (dest);
+    int a[] = {1, 2, 3, 4, 5};
+    int i = 0;
+    ft_memset(&a[0], 255, 4);
+    ft_memset(&a[0], 214, 1);
+    while (a[i])
+    {
+        printf("%d\n", a[i]);
+        i++;
+    }
 }

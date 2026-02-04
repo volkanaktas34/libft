@@ -6,7 +6,7 @@
 /*   By: vaktas<vaktas@student.42istanbul.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/09 14:24:47 by vaktas            #+#    #+#             */
-/*   Updated: 2026/01/30 14:25:22 by vaktas           ###   ########.tr       */
+/*   Updated: 2026/01/31 12:32:00 by vaktas           ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,7 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	while (n--)
 	{
 		if (*p1 != *p2)
-		{
 			return (*p1 - *p2);
-		}
 		p1++;
 		p2++;
 	}

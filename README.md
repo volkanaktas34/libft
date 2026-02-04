@@ -4,13 +4,13 @@ Libft - @42Istanbul
 
 EN:
 
-Description
+# **Description**
 
 Libft is the first project of the 42 school curriculum. The goal of this project is to recreate a series of standard C library functions, as well as additional helper functions that will be used throughout the rest of the program.
 
 By building this library from scratch, the project provides a deep understanding of memory management, string manipulation, and data structures in C. It serves as a personal toolset that replaces the standard libc in future 42 projects.
 
-The Library: Detailed Overview
+### The Library: Detailed Overview
 
 The library is composed of three distinct parts:
 
@@ -20,9 +20,9 @@ The library is composed of three distinct parts:
 
     Linked Lists Functions: A suite of functions designed to handle linked lists, allowing for dynamic data storage and manipulation (e.g., ft_lstadd_back, ft_lstmap, ft_lstclear).
 
-Instructions
+# **Instructions**
 
-Compilation
+### Compilation
 
 The project includes a Makefile that compiles the source files into a static library file called libft.a.
 
@@ -42,7 +42,7 @@ The project includes a Makefile that compiles the source files into a static lib
 
     make re
 
-Execution
+### Execution
 
 To use this library in your own C projects, include the header file in your code:
 
@@ -52,7 +52,7 @@ When compiling your project, link the library as follows:
 
 gcc main.c -L. -lft -o my_program
 
-Resources
+# **Resources**
 
     C Standard Library (libc) Documentation: Detailed documentation of standard functions.
 
@@ -64,7 +64,7 @@ Resources
 
     Linked Lists Concept: GeeksforGeeks Data Structures
 
-AI Usage Disclosure
+# AI Usage Disclosure
 
 Artificial Intelligence (specifically Gemini) was utilized in this project for the following tasks:
 
@@ -80,15 +80,15 @@ Libft - @42Istanbul
 
 TR:
 
-Açıklama
+# **Açıklama**
 
 Libft, C programlama dilinde standart kütüphane (libc) fonksiyonlarını yeniden yazarak ve müfredat boyunca kullanılacak yardımcı fonksiyonları ekleyerek oluşturulan kişisel bir C kütüphanesidir.
 
 Bu projenin temel amacı, bir C programcısının en temel araçlarını (string yönetimi, bellek yönetimi, karakter kontrolü vb.) derinlemesine anlamak ve ilerideki projelerde kullanılmak üzere sağlam bir temel oluşturmaktır. Proje; karakter analizi, bellek manipülasyonu, string işleme ve bağlı liste (linked list) yönetimi gibi alanları kapsar.
 
-Kütüphane: Detaylı Genel Bakış
+### Kütüphane: Detaylı Genel Bakış
 
-Kütüphane üç farklı bölümden oluşmaktadır:
+### Kütüphane üç farklı bölümden oluşmaktadır:
 
     Libc Fonksiyonları: strlen, memcpy, atoi ve is... ailesi (örneğin; isalpha, isdigit) gibi standart fonksiyonların yeniden yazılmış halleridir. Bu fonksiyonlar, orijinal sistem "man" sayfalarındaki davranışların birebir aynısını sergiler.
 
@@ -96,9 +96,9 @@ Kütüphane üç farklı bölümden oluşmaktadır:
 
     Bağlı Liste Fonksiyonları: Dinamik veri depolama ve yönetimi sağlayan, bağlı listeleri (linked lists) işlemek için tasarlanmış bir dizi fonksiyondur (örneğin; ft_lstadd_back, ft_lstmap, ft_lstclear).
 
-Talimatlar
+# **Talimatlar**
 
-Derleme
+### Derleme
 
 Proje, kaynak dosyalarını libft.a adlı statik bir kütüphane dosyasına derleyen bir Makefile içerir.
 
@@ -118,7 +118,7 @@ Proje, kaynak dosyalarını libft.a adlı statik bir kütüphane dosyasına derl
 
     make re
 
-Kullanım
+### Kullanım
 
 Bu kütüphaneyi kendi C projelerinizde kullanmak için başlık (header) dosyasını kodunuza dahil edin:
 
@@ -128,7 +128,7 @@ Projenizi derlerken kütüphaneyi aşağıdaki şekilde bağlayın:
 
 gcc main.c -L. -lft -o program_adi
 
-Kaynaklar
+# **Kaynaklar**
 
     C Standart Kütüphanesi (libc) Dokümantasyonu: Standart fonksiyonların ayrıntılı dokümantasyonu.
 
@@ -140,7 +140,7 @@ Kaynaklar
 
     Bağlı Listeler Kavramı: GeeksforGeeks Veri Yapıları
 
-Yapay Zeka Kullanım Beyanı
+### Yapay Zeka Kullanım Beyanı
 
 Bu projede Yapay Zeka (özellikle Gemini), aşağıdaki görevler için kullanılmıştır:
 

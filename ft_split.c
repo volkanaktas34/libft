@@ -6,7 +6,7 @@
 /*   By: vaktas<vaktas@student.42istanbul.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/15 16:39:44 by vaktas            #+#    #+#             */
-/*   Updated: 2026/01/30 14:25:52 by vaktas           ###   ########.tr       */
+/*   Updated: 2026/01/31 12:34:49 by vaktas           ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,9 +34,7 @@ static size_t	segment_length(char const *s, char c)
 
 	len = 0;
 	while (s[len] && s[len] != c)
-	{
 		len++;
-	}
 	return (len);
 }
 
